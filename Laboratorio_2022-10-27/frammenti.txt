@@ -1,0 +1,6 @@
+4) conteggio di valori con una data proprietà
+1) calcolo di una somma in una serie di numeri
+6) ricerca del min/max in una serie
+3) ripetizione di un'azione
+5) ricerca della posizione di un valore dato in una serie
+2) elaborazione su valori consecutivi di una serie
