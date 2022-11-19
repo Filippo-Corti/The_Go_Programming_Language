@@ -44,14 +44,55 @@ func getSemeCarta(n int) string {
 
 func main()  {
 	rand.Seed(time.Now().UnixNano())
-	// c, _ := carta(25)
-	// fmt.Println(c, getValoreBJ(c))
 	mazzo := mazzoPocker()
-	fmt.Println("Mazzo:")
-	fmt.Println(mazzo)
 	mischia(&mazzo)	
-	fmt.Println("Mazzo mischiato:")
-	fmt.Println(mazzo)
+	fmt.Println("Il Mazzo è pronto e mischiato")
+	playBJ(&mazzo)
+}
+
+func playBJ(mazzo *[CARTE]Carta) {
+	var scelta int
+	manoTavolo := mazzo[0:2]
+	manoGiocatore := mazzo[2:4]
+	i := 4
+	fmt.Println("Carte Tavolo: ", manoTavolo, "{ Punti:", contaPunti(manoTavolo), "}")
+	fmt.Println("Le tue Carte: ", manoGiocatore, "{ Punti:", contaPunti(manoGiocatore), "}")
+	fmt.Print("Scegli la tua prossima mossa:\n 1 -> Mantieni \n 2-> Nuova Carta\n")
+	fmt.Scan(&scelta)
+	attendi(1)
+	if scelta == 2 {
+		manoGiocatore = append(manoGiocatore, mazzo[i])
+		i++
+	} 
+	if contaPunti(manoTavolo) < 17 {
+		manoTavolo = append(manoTavolo, mazzo[i])
+		i++
+	}
+	fmt.Println("Le tue Carte: ", manoGiocatore, "{ Punti:", contaPunti(manoGiocatore), "}")
+	attendi(2)
+	fmt.Println("Carte Tavolo: ", manoTavolo, "{ Punti:", contaPunti(manoTavolo), "}")
+	if valutaVittoria(manoTavolo, manoGiocatore) {
+		fmt.Println("HAI VINTO!")
+	} else {
+		fmt.Println("HAI PERSO!")
+	}
+}
+
+func contaPunti(mano []Carta) (p int) {
+	for _, c := range mano {
+		p += getValoreBJ(c)
+	}
+	return
+}
+
+func valutaVittoria(tavolo, giocatore []Carta) bool {
+	if contaPunti(giocatore) > 21 {
+		return false
+	}
+	if contaPunti(tavolo) > 21 {
+		return true
+	}
+	return contaPunti(tavolo) <= contaPunti(giocatore) 
 }
 
 func getValoreBJ(carta Carta) int {
@@ -79,3 +120,14 @@ func mischia(mazzo *[CARTE]Carta) {
 		mazzo[i], mazzo[r] = mazzo[r], mazzo[i]
 	}
 }
+
+func estraiCarta() Carta {
+	r := rand.Intn(CARTE)
+	c, _ := carta(r)
+	return c
+}
+
+func attendi(n_seconds float64){
+	time.Sleep(time.Duration(n_seconds) * time.Second)
+}
+ 
