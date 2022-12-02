@@ -20,8 +20,8 @@ func main() {
                 fmt.Println("Not Enough Data")
                 continue
             }
-            n1 := Pop(&stack)
             n2 := Pop(&stack)
+            n1 := Pop(&stack)
             switch input {
             case "+":
                 Push(&stack, n1 + n2)
