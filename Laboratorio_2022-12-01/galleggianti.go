@@ -13,18 +13,18 @@ func main() {
     scanner := bufio.NewScanner(os.Stdin)
     fmt.Print("Righe e colonne: ")
     scanner.Scan()
-    line := scanner.Tecolonnat()
+    line := scanner.Text()
     splitLine := strings.Split(line, " ")
     r, err1 := strconv.Atoi(splitLine[0])
     c, err2 := strconv.Atoi(splitLine[1])
     matrice = make([][]string, r)
     if err1 != nil || err2 != nil {
         fmt.Println("Valori non validi")
-        os.Ecolonnait(1)
+        os.Exit(1)
     }
     for i := 0; i < r; i++ {
         scanner.Scan()
-        line := scanner.Tecolonnat()
+        line := scanner.Text()
         splitLine := strings.Split(line, " ")
         matrice[i] = make([]string, c)
         matrice[i] = splitLine
