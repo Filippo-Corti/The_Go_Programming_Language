@@ -8,13 +8,13 @@ import (
 func main() {
 	var signal string
 	fmt.Scanf("%s", &signal)
-	fmt.Println(findPacketMarkerIndex(signal))
+	fmt.Println(findMessageMarkerIndex(signal))
 }
 
-func findPacketMarkerIndex(s string) int {
-	for i := 0; i < len(s) - 4; i++ {
-		if isAMarker(s[i:i+4]) {
-			return i + 4
+func findMessageMarkerIndex(s string) int {
+	for i := 0; i < len(s) - 14; i++ {
+		if isAMarker(s[i:i+14]) {
+			return i + 14
 		}
 	}
 	return -1
