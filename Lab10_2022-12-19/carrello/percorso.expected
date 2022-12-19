@@ -1,0 +1,18 @@
+| | | |12|4| | | |10| | | | |4| | | | |5| |12| | | | |3| |
+carrello: posizione 3, carico 12
+|12| | | |4| | | |10| | | | |4| | | | |5| |12| | | | |3| |
+carrello: posizione 12, carico 14
+|26| | | | | | | | | | | | |4| | | | |5| |12| | | | |3| |
+carrello: posizione 19, carico 9
+|35| | | | | | | | | | | | | | | | | | | |12| | | | |3| |
+carrello: posizione 26, carico 15
+|50| | | | | | | | | | | | | | | | | | | | | | | | | | |
+carrello: posizione 0, carico 0
+n viaggi: 4
+peso max: 12
+oggetti trovati:
+1 ogg. di peso 3
+2 ogg. di peso 4
+1 ogg. di peso 5
+1 ogg. di peso 10
+2 ogg. di peso 12
