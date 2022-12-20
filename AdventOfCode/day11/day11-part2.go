@@ -43,24 +43,34 @@ func getMonkeyBusiness(monkeys []Monkey) int {
 }
 
 func playMonkeyInTheMiddle(monkeys []Monkey) int {
-	//Play for 20 rounds
-	for i := 0; i < 20; i++ {
+	MCDofAllTests := getMCDofTests(monkeys)
+	//Play for 10000 rounds
+	for i := 0; i < 10000; i++ {
 		for i, _ := range monkeys {
 			//Play monkey turn
-			playMonkeyTurn(&monkeys[i], monkeys)
+			playMonkeyTurn(&monkeys[i], monkeys, MCDofAllTests)
 			//fmt.Println(monkeys)
 		}
 	}
 	return 0
 }
 
-func playMonkeyTurn(monkey *Monkey, monkeys []Monkey) {
+func getMCDofTests(monkeys []Monkey) int {
+	mcd := 1
+	for _, monkey := range monkeys {
+		mcd *= monkey.test
+	}
+	fmt.Println(mcd)
+	return mcd
+}
+
+func playMonkeyTurn(monkey *Monkey, monkeys []Monkey, MCDofAllTests int) {
 	for i, _ := range monkey.items {
 		//Change the worry level of the item
 		//fmt.Printf("Monkey inspects an item with a worry level of %d.\n", monkey.items[i])
-		monkey.items[i] = monkey.operation(monkey.items[i]) 
+		monkey.items[i] = monkey.operation(monkey.items[i]) % MCDofAllTests
 		//fmt.Printf("Worry level is changed to %d.\n", monkey.items[i])
-		monkey.items[i] = divideByThreeApprox(monkey.items[i])
+		//monkey.items[i] = divideByThreeApprox(monkey.items[i])
 		//fmt.Printf("Worry level is divided by 3 to %d.\n", monkey.items[i])
 		monkey.itemsInspected++
 		//Pass it to the next monkey 
