@@ -8,7 +8,6 @@ import (
 	"os"
 	"strings"
 	"strconv"
-	"math"
 )
 
 type CPU struct {
@@ -18,12 +17,12 @@ type CPU struct {
 }
 
 func (cpu *CPU) Noop() {
-	cpu.cycle++
-	if math.Abs(float64(cpu.cycle - cpu.x)) <= 2 {
+	if (cpu.cycle % 40) >= cpu.x - 1 && (cpu.cycle % 40) <= cpu.x + 1 {
 		fmt.Print("#")
 	} else {
-		fmt.Print("0")
+		fmt.Print(" ")
 	}
+	cpu.cycle++
 	if cpu.cycle % 40 == 0 {
 		fmt.Println()
 	}
