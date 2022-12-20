@@ -7,6 +7,7 @@ import (
 	"fmt"
 	"math"
 	"os"
+	"strconv"
 )
 
 type Knot struct {
@@ -39,14 +40,21 @@ func countVisitedCells(bridge [][]string) (c int) {
 
 func followDirections(bridge [][]string, directions []Direction) () {
 	_, _, startRow, startCol := getGridDimension(directions)
-	tail := Knot{"T", startRow, startCol}
+	tails := make([]Knot, 9) 
+	for i := 0; i < len(tails); i++ {
+		tails[i] = Knot{strconv.Itoa(i + 1), startRow, startCol}
+	}
 	head := Knot{"H", startRow, startCol}
 	for _, direction := range directions {
 		for i := 0; i < direction.distance; i++ {
 			moveHead(&head, direction.orientation)
-			moveTail(&tail, head)
-			fmt.Println(head.row, head.col)
-			bridge[tail.row][tail.col] = "#"
+			moveTail(&tails[0], head)
+			for i := 1; i < len(tails); i++ {
+				moveTail(&tails[i], tails[i - 1])
+			}
+			//fmt.Println(head.row, head.col, tails)
+			bridge[tails[8].row][tails[8].col] = "#"
+			//printGrid(bridge, tails, head)
 		}
 	}
 }
@@ -66,7 +74,10 @@ func moveTail(tail *Knot, head Knot) {
 			moveKnot(tail, tail.row + (head.row - tail.row) / 2, tail.col)
 		}
 	} else if math.Abs(float64(tail.row - head.row)) > 1.0 || math.Abs(float64(tail.col - head.col)) > 1.0 {
-		if math.Abs(float64(tail.row - head.row)) > 1.0 {
+		if math.Abs(float64(tail.row - head.row)) > 1.0 && math.Abs(float64(tail.col - head.col)) > 1.0 {
+			moveKnot(tail, tail.row, tail.col + (head.col - tail.col) / 2)
+			moveKnot(tail, tail.row + (head.row - tail.row) / 2, tail.col)
+		} else if math.Abs(float64(tail.row - head.row)) > 1.0 {
 			moveKnot(tail, tail.row, tail.col + int(float64(head.col - tail.col)))
 			moveKnot(tail, tail.row + (head.row - tail.row) / 2, tail.col)
 		} else {
@@ -96,16 +107,21 @@ func moveKnot(head *Knot, newRow, newCol int) {
 	head.col = newCol
 }
 
-func printGrid(bridge [][]string, tail, head Knot) {
+func printGrid(bridge [][]string, tails []Knot, head Knot) {
 	for row, bridgeRow := range bridge {
+		cycleCols:
 		for col, cell := range bridgeRow {
-			if row == tail.row && col == tail.col {
-				fmt.Print(tail.name)
-			} else if row == head.row && col == head.col {
+			if row == head.row && col == head.col {
 				fmt.Print(head.name)
 			} else {
+				for _, tail := range tails {
+					if row == tail.row && col == tail.col {
+						fmt.Print(tail.name)
+						continue cycleCols
+					} 
+				}
 				if cell == "" {
-					fmt.Print(" ")
+					fmt.Print("0")
 				} else {
 					fmt.Print(cell)
 				}
@@ -145,7 +161,6 @@ func getGridDimension(dirs []Direction) (int, int, int, int) {
 	var maxRows, minRows, maxCols, minCols int
 	var rows, cols int = 0, 0
 	for _, dir := range dirs {
-		fmt.Println(rows, cols)
 		switch dir.orientation {
 		case "D":
 			rows -= dir.distance
@@ -169,7 +184,5 @@ func getGridDimension(dirs []Direction) (int, int, int, int) {
 			minCols = cols
 		}
 	}
-
-	fmt.Println(maxRows, minRows, maxCols, minCols)
 	return maxRows - minRows + 1, maxCols - minCols + 1, maxRows, - minCols
 }
