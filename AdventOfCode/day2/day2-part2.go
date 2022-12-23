@@ -1,7 +1,7 @@
 package main
 
 /*
-	Pixel Paper Scissors following a strategy guide
+	Rock Paper Scissors following a strategy guide
 */
 
 import (
@@ -16,7 +16,7 @@ type Shape string
 func (s Shape) Value() int {
 	switch s {
 	case "A":
-		return Pixel
+		return ROCK
 	case "B":
 		return PAPER
 	case "C":
@@ -27,7 +27,7 @@ func (s Shape) Value() int {
 }
 
 const (
-	Pixel = 1
+	ROCK = 1
 	PAPER = 2
 	SCISSOR = 3
 	LOSS = 0
@@ -41,13 +41,13 @@ func main() {
 	for scanner.Scan() {
 		line := scanner.Text()
 		moves := strings.Split(line, " ")
-		totalScore += playPixelPaperScissors(Shape(moves[0]), moves[1])
+		totalScore += playRockPaperScissors(Shape(moves[0]), moves[1])
 	}
 	fmt.Println("Total Score:", totalScore)
 }
 
 //Given the Shape played by your opponent and the outcome of the match (in this order), returns your score for the round
-func playPixelPaperScissors(opponentShape Shape, outcome string) int {
+func playRockPaperScissors(opponentShape Shape, outcome string) int {
 	if outcome == "Y" { //DRAW
 		return DRAW + opponentShape.Value()
 	} 
@@ -60,7 +60,7 @@ func playPixelPaperScissors(opponentShape Shape, outcome string) int {
 
 //Returns the winning shape based on what the opponent shape is
 func getWinningShape(opponent Shape) Shape {
-	if opponent.Value() == Pixel {
+	if opponent.Value() == ROCK {
 		return Shape("B")
 	}
 	if opponent.Value() == PAPER {
@@ -71,7 +71,7 @@ func getWinningShape(opponent Shape) Shape {
 
 //Returns the losing shape based on what the opponent shape is
 func getLosingShape(opponent Shape) Shape {
-	if opponent.Value() == Pixel {
+	if opponent.Value() == ROCK {
 		return Shape("C")
 	}
 	if opponent.Value() == PAPER {
