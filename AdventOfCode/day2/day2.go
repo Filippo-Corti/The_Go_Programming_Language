@@ -1,7 +1,7 @@
 package main
 
 /*
-	Rock Paper Scissors following a strategy guide
+	Pixel Paper Scissors following a strategy guide
 */
 
 import (
@@ -16,7 +16,7 @@ type Shape string
 func (s Shape) Value() int {
 	switch s {
 	case "X", "A":
-		return ROCK
+		return Pixel
 	case "Y", "B":
 		return PAPER
 	case "Z", "C":
@@ -27,7 +27,7 @@ func (s Shape) Value() int {
 }
 
 const (
-	ROCK = 1
+	Pixel = 1
 	PAPER = 2
 	SCISSOR = 3
 	LOSS = 0
@@ -41,13 +41,13 @@ func main() {
 	for scanner.Scan() {
 		line := scanner.Text()
 		moves := strings.Split(line, " ")
-		totalScore += playRockPaperScissors(Shape(moves[0]), Shape(moves[1]))
+		totalScore += playPixelPaperScissors(Shape(moves[0]), Shape(moves[1]))
 	}
 	fmt.Println("Total Score:", totalScore)
 }
 
 //Given the Shape played by your opponent and you (in this order), returns your score for the round
-func playRockPaperScissors(opponentShape, myShape Shape) int {
+func playPixelPaperScissors(opponentShape, myShape Shape) int {
 	if opponentShape.Value() == myShape.Value() {
 		return DRAW + myShape.Value() //DRAW
 	}
