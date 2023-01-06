@@ -1,0 +1,8 @@
+OVEST 2  
+NORD 1
+EST 5 
+SUD 4 
+EST 5 
+NORD 3 
+SUD 1
+OVEST 3
