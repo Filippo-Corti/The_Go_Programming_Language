@@ -1,0 +1,647 @@
+Quale variabile visuale viene percepita per ultima dal sistema visivo umano?
+A) forma
+B) dimensione
+C) colore
+ANSWER: A
+
+Il metodo costruttivista:
+A) è un processo visivo che ricostruisce la realtà
+B) è un processo visivo che replicata la realtà
+C) è un processo cognitivo 
+ANSWER: A
+
+Il modello ecologico
+A) l'informazione visiva si basa sulle proprietà di quello che viene osservato 
+B) l'informazione visiva è costruita
+C) l'informazione visiva è costruita in base alla percezione di strutture unitarie
+ANSWER: A
+
+La memoria a breve termine
+A) ha capacità limitata
+B) ha capacità illimitate
+C) raccoglie informazioni in modo persistente
+ANSWER: A
+
+L'esperimento di Peterson & Peterson dice che la STM è in grado di registrare:
+A) 7 più o meno 2 blocchi informativi
+B) 7 più o meno 2 lettere
+C) 7 più o meno 2 concetti
+ANSWER: A
+
+Per evitare un sovraccarico dello sforzo cognitivo dell'utente è bene:
+A) Progettare interfacce che siano famigliari 
+B) Progettare interfacce che chiedano di ricordare il loro utilizzo
+C) Progettare icone colorate
+ANSWER: A
+
+Durante la fase di ispirazione del processo di IxD:
+A) Si cerca di divergere rispetto gli obiettivi fondanti il progetto
+B) Si cerca di convergere rispetto gli obiettivi fondanti il progetto
+C) Si cerca di creare dei prototipi di progetto
+ANSWER: A
+
+La fase dedicata all'individuazione delle personas:
+A) E' una tipica fase di divergenza
+B) E' una tipica fase di convergenza
+C) Viene svolta durante le attività di prototipazione del sistema
+ANSWER: A
+
+Cosa si intende per Analogous Inspiration ?
+A) Una strategia di design che prende spunto da contesti d'uso diversi
+B) Una strategia di design che sia basa solo sulla fase riflessiva dell'emotional design
+C) Una strategia di design che prevede uno studio accurato dell'uso del colore
+ANSWER: A
+
+Il triangolo della significazione è:
+A) Un modello che spiega come un individuo associa segnali a concetti e fenomeni del suo mondo di riferimento
+B) Un modello che spiega come viene ricostruita la realtà
+C) Un modello che viene usato implementare stratregie di design empzionale
+ANSWER: A
+
+Un sistema di comunicazione può essere analizzato a questi livelli:
+A) sintattico, semantico e pragmatico
+B) individuale e collettivo
+C) semantico e semiotico
+ANSWER: A
+
+La semantizzazione progressiva:
+A) E' il processo mediante il quale due individui che comunicano giungono ad attribuire lo stesso significato ad un messaggio che viene scambiato
+B) E' un modello che descrive come un individuo percepisce la realtà
+C) E' il fenomeno che si verifica quando durante un processo di comunicazione i referenti dei due comunicanti si sovrappongono
+ANSWER: A
+
+Segnale digitale è labile perché:
+A) La sua forma esterna esiste solo al momento della sua fruizione
+B) La forma interna esiste solo quando il sistema digitale lo materializza 
+C) La sua materializzazione è sempre uguale indipendentemente dal device usato
+ANSWER: A
+
+In un sistema di comunicazione, il livello semantico :
+A) Astrae dall'utente che utilizza il sistema in uno specifico contesto
+B) Descrive solo le regole del linguaggio
+C) Tiene conto di come contesto e modo di articolare influenzano l'attribuzione di significato ad un messaggio
+
+ANSWER: A
+Nella comunicazione orale:
+A) Il processo di comunicazione è in generale sincrono
+B) Il processo di comunicazione è sempre asincrono
+C) La persistenza del messaggio è illimitata
+ANSWER: A
+
+Nel triangolo della significazione di Ogden-Richards la referenza:
+A) Si riferisce ad un concetto nella testa dell'utente
+B) Si riferisce alla dimensione visuale che per prima viene percepita dall'utente
+C) Simbolizza un segnale
+ANSWER: A
+
+Nella comunicazione digitale:
+A) Il progettista può manipolare la forma interna per facilitare le operazioni di trasmissione, memorizzazione etc., senza che l'utente se accorga
+B) L'autore può sempre garantire la forma esterna
+C) Il messaggio nella sua forma esterna può essere di natura multimediale ma non multimodale
+ANSWER: A
+
+Il gap comunicazionale:
+A) E' la distanza tra il modello mentale dell'utente e il modello concettuale del designer
+B) E' la distanza tra il livello semantico e pragmatico del modello di Tondl
+C) E' la distanza tra il modello concettuale dell'utente e il modello mentale del designer
+ANSWER: A
+
+L’influenza nascosta delle tecnologie:
+A) Obbliga l'utente a svolgere certe attività a scapito di certe altre
+B) Può sempre essere superata da un buon modello percettivo
+C) E' sempre un problema di semantica
+ANSWER: A
+
+La co-evoluzione
+A) Implica che l'uso del sistema cambia le modalità con cui l'utente può utilizzarlo
+B) Implica che un'interfaccia evolve nel tempo anche se il modello mentale del'utente rimane invariato
+C) Implica che l'utente userà il sistema sempre allo stesso modo quindi l'interfaccia deve adattarsi
+ANSWER: A
+
+Un corretto elenco di tipologie di intervista è:
+A) Strutturata, non strutturata e prompted
+B) Focus group, questionari e osservazione diretta
+C) Lista di controlli, scala di Likert e Semantica differenziale
+ANSWER: A
+
+La scala di Semantica differenziale:
+A) Si basa su aggettivi estremi bi-polari
+B) Viene usata per definire la palette di colori di un sito web
+C) Definisce la distanza dell'esecuzione del modello di Hutchins,Hollan e Norman
+ANSWER: A
+
+Un' osservazione diretta:
+A) Può essere un'indagine contestuale
+B) Implica sempre l'uso di software di terze parti per la raccolta di dati
+C) Permette di studiare la correttezza del livello pragmatico del modello di Tondl 
+ANSWER: A
+
+L' effetto Hawthorne:
+A) E' un effetto legato alla coscienza di essere osservati da parte degli utenti
+B) E' un effetto per studirare la distanza della valutazione del modello di Hutchins,Hollan e Norman
+C) E' una conseguenza dell'applicazione delle startregie di emotional design di Norman
+ANSWER: A
+
+Lo scenario è
+A) Una tecnica per descrivere compiti 
+B) Una tecnica per analizzare dati
+C) Una tecnica di analisi dell'usabilità predittiva
+ANSWER: A
+
+I casi d'uso
+A) Si focalizzano sui processi di interazione tra uomo e sistemi
+B) Si focalizzano sugli aspetti di usabilità
+C) Definiscono i processi di interaction design 
+ANSWER: A
+
+Gli essential use case
+A) Sono un'astrazione rispetto agli scenari
+B) Si usano per fare analisi di accessibilità
+C) Si focalizzano sui processi di interazione tra l'uomo e i sistemi specificando il "botta e risposta" tra utente e interfaccia
+ANSWER: A
+
+Media, mediana e moda sono metriche usate:
+A) Nell'analisi quantitativa
+B) Nell'analisi qualitativa
+C) Per la valutazione dell'efficacia del sistema motorio
+ANSWER: A
+
+L'analisi dei temi ricorrenti e la categorizzazione dati sono tecniche usate:
+A) Nell'analisi qualitativa
+B) Nell'analisi quantitativa
+C) Per la definizione delle personas
+ANSWER: A
+
+I requisiti funzionali:
+A) Definiscono le funzionalità di un sistema interattivo
+B) Definiscono come i dati devono essere trattati
+C) Definiscono le caratteristiche dell'ambiente d'uso 
+ANSWER: A
+
+Il ciclo di vita a cascata:
+A) Consiste di una successione in sequenza di processi
+B) E' caratterizzato da un set di linee guide definite dal W3C
+C) E' caratterizzato da un framework interattivo in cui al centro del ciclo c'è la fase di valutazione dell'usabilità
+ANSWER: A
+
+Il ciclo di vita a stella:
+A) Definisce uno sviluppo del software che consiste nel mettere le valutazioni al centro delle attività
+B) Consiste di una successione in sequenza di processi
+C) Serve per eseguire dei test di accessibilità
+ANSWER: A
+
+Per ridurre il tasso di errori commesso da un utente:
+A) Bisognerebbe evitare situazioni troppo competitive 
+B) Bisognerebbe rendere i task molto semplici e ripetitivi quasi noiosi 
+C) Bisognerebbe evitare che i task siano semplici
+ANSWER: A
+
+Un elevato tempo di reazione di un sistema interattivo:
+A) Comporta un aumento del tempo di risposta dell'utente
+B) Comporta una diminuzione del tempo di risposta dell'utente
+C) Rende il sistema più avvincente
+ANSWER: A
+
+Il golfo dell'esecuzione si può scomporre in:
+A) Intenzione, esecuzione, azione
+B) Valutazione, interpretazione, percezione
+C) Livello sintattico, semantico e pragmatico
+ANSWER: A
+
+Il golfo della valutazione si può scomporre in:
+A) Valutazione, interpretazione, percezione
+B) Interazione, esecuzione, azione
+C) Simboli statici, simboli dinamici, simboli metalinguistici
+ANSWER: A
+
+La distanza articolatoria separa:
+A) La percezione dalla interpretazione
+B) La percezione dalla valutazione
+C) L' interpretazione dalla valutazione
+ANSWER: A
+
+La distanza semantica separa:
+A) L' interpretazione dalla valutazione
+B) La percezione dalla valutazione
+C) La percezione dalla interpretazione
+ANSWER: A
+
+La distanza articolatoria separa:
+A) L'azione dall' esecuzione
+B) L'intenzione dall'esecuzione
+C) L'intenzione dall'azione
+ANSWER: A
+
+La distanza semantica separa:
+A) L'intenzione dall'azione
+B) L'azione dall' esecuzione
+C) L'intenzione dall'esecuzione
+ANSWER: A
+
+Il modello di Hutchins,Hollan e Norman è debole perché:
+A) Si focalizza solo sull'uomo e l'interfaccia
+B) Si focalizza solo su aspetti di accessibilità
+C) Si focalizza solo sulle intenzioni del designer
+ANSWER: A
+
+Il modello concettuale:
+A) E' definito dal team di progetto
+B) E' definito dall'utente
+C) Dipende da quanto è ampio il goldo dell'esecuzione
+ANSWER: A
+
+Nell' approccio partecipativo alla progettazione:
+A) Vengono coinvolti nel progetto rappresentanti degli utenti che divengono membri della squadra di progetto
+B) I progettisti ottengono informazioni dagli utenti con interviste, questionari, osservazione del loro lavoro
+C) Ci si focalizza fin dall'inizio sulle caratteristiche degli utenti e sui loro compiti
+ANSWER: A
+
+La legge della Gestalt:
+A) E' una teoria alla base del sistema percettivo 
+B) E' una teoria alla base del sistema cognitivo  
+C) E' una teoria alla base del sistema motorio
+ANSWER: A
+
+Il feedback di un intefaccia grafica:
+A) è un indicatore visico che può essere qualitativo e quantitativo
+B) è un indicatore sensoriale di tipo empirico e astratto
+C) può essere di natura semantica e pragmatica
+ANSWER: A
+
+La legge della similarità vale anche per i colori:
+A) Sì
+B) No perchè valore solo per le forme
+C) Sì ma solo se accoppiata con la legge della chiusura
+ANSWER: A
+
+Il modello che studia la percezione come una risposta ad una serie di stimoli percepiti come strutture unitarie è:
+A) Il modello costruttivista
+B) Il modello ecologico
+C) Il modello semantico
+ANSWER: A
+
+L'affordance:
+A) E' una proprietà dell'oggetto
+B) E' una caratteristica della memoria a breve termine
+C) E' una proprietà legata solo all'interazione
+ANSWER: A
+
+La affordance percepita:
+A) E' una proprietà che può cambiare in base alla cultura
+B) E' una proprietà che è identica per ogni essere umano universale
+C) E' una proprietà che caratterizza solo il processo di design
+ANSWER: A
+
+La metafora innesca:
+A) In prima istanza un processo percettivo
+B) Un associazione diretta tra segnale digitale e referente del mondo reale
+C) Un processo motorio facilitato
+ANSWER: A
+
+Con affordance nascosta si intende:
+A) Una proprietà visiva che si attiva solo in risposta ad un'azione dell'utente
+B) Una tipologia di affordance false
+C) Una metafora esplicita sullo schermo
+ANSWER: A
+
+Il Design di Norman a livello viscerale è orientato alla:
+A) Progettazione dell’apparenza
+B) Progettazione di funzioni, comprensibilità, usabilità e sensazione fisica
+C) Progettazione del messaggio, della cultura e del significato di un prodotto, ed ad un suo impiego
+ANSWER: A
+
+L'uomo usa più spesso:
+A) Strategie euristiche
+B) Strategie algoritmiche
+C) Strategie sempre ottimali
+ANSWER: A
+
+L'attenzione selettiva:
+A) E' un meccanismo adattivo che permette di concentrare le limitate risorse cognitive su un singolo canale
+B) E' un processo che permette di sfruttare la memoria a lungo termine
+C) E' un meccanismo usato per studiare l'usabilità di un sistema
+ANSWER: A
+
+La tacita conoscenza:
+A) Non è codificabile
+B) E' l'informazione nascosta che un utente di dominio percepisce nell'interfaccia
+C) E'  studiata mediante il modello di Hutchins, Hollan e Norman
+ANSWER: A
+
+Secondo la legge di Fitts:
+A) Bersagli lontani devono essere grandi
+B) Bersagli lontani devono essere piccoli
+C) Bersagli vicini devono essere grandi
+ANSWER: A
+
+Un buon design dell'interazione prevede di:
+A) Presentare poche ma mirate opzioni di scelta selezionabili dall'utente
+B) Non curarsi troppo dei percorsi di minima resistenza
+C) Mettere sempre la scelta migliore come prima
+ANSWER: A
+
+Il card sorting:
+A) E' una tecnica mediante la quali gli utenti vengono coinvolti nel design dell'architettura dell’informazione
+B) E' una tecnica a di analisi di accessibilità
+C) E' una tecnica a di valutazione senza utenti
+ANSWER: A
+
+Il Card sorting aperto è:
+A) Metodo generativo
+B) E' sempre un metodo valutativo 
+C) Metodo di valutazione analitica di usabilità
+ANSWER: A
+
+Nel Card sorting chiuso:
+A) L’utente deve ordinare i foglietti entro delle categorie predeterminate
+B) L'utente fornisce liberamente indicazioni su come vorrebbe definire un' architettura informativa
+C) L'utente agisce per creare da zero un’architettura informativa
+ANSWER: A
+
+In un prototipo orizzontale:
+A) Le simulazioni non permettono di svolgere alcun task vero
+B) E' possibili testare in profondità solo una parte del sistema
+C) E' una tecnica di valutazione dell'usabilità
+ANSWER: A
+
+Un prototipo di carta:
+A) Può essere valutato mediante tecnica del mago di Oz
+B) Può essere solo un prototipo di tipo verticale
+C) E' un prototipo che non si può utilizzare nelle prime fasi di design
+ANSWER: A
+
+Con la tecnica del mago di Oz:
+A) E' possibile testare l'usabilità di mockup
+B) E' possibile testare l'accessibilità del sistema
+C) E' possibile controllare i tempi di interazione
+ANSWER: A
+
+WIMP sta per:
+A) Windows, icons, menus, pointing
+B) What you see is what you get
+C) Windows, interfaces, mouse, pile
+ANSWER: A
+
+Un Pattern di progetto di HCI offre:
+A) Una soluzione a problemi ricorrenti
+B) Una strategia di valutazione dell'accessibilità
+C) Una tecnica di progettazione che sfrutta sempre la tacita conoscenza dell'utente
+ANSWER: A
+
+Un anti-Pattern di progetto di HCI:
+A) Specifica una soluzione da non seguire
+B) Specifica una soluzione per risolvere possibiili errori commessi degli utenti 
+C) Specifica una soluzione accessibile a tutti i itipi di utente
+ANSWER: A
+
+Quando l'utente ha una vaga idea di cosa cercare su un sito effettua una:
+A) Ricerca esplorativa
+B) Ricerca esaustiva
+C) Ricerca mirata
+ANSWER: A
+
+Il berrypicking model:
+A) E' un paradigma di ricerca informativa che prende anche il nome di «evolving search»
+B) E' un paradigma di ricerca che implementa una tecnica di car sorting
+C) E' una strategia di analisi dell'usabilità
+ANSWER: A
+
+La dimensione verticale di una architettura informativa:
+A) Raffigura le relazioni gerarchiche tra gli elementi di un sistema
+B) Raffigura le ipotetiche relazioni tra livello sintattico e semantica del modello di Tondl
+C) Raffigura le relazioni di continuità spazio-temporale tra gli elementi di un'interfaccia
+ANSWER: A
+
+Un elenco di parole riservate, da usare al posto di alternative più o meno chiare costituisce:
+A) Un vocabolario controllato
+B) Un thesauro
+C) Una gerarchia tassonomica
+ANSWER: A
+
+I modelli di classificazione dell'architettura informativa si possono dividere in:
+A) Modello tassonomico, modello a faccette, social classification
+B) Modello viscrale  comportamentale e riflessivo
+C) Modelli basati sulle distanze semantica e modelli basati sulle distanze articolare
+ANSWER: A
+
+La struttura organizzativa di tipo gerarchico-enumerativa:
+A) Forma una struttura ad albero
+B) Favorisce una classificazione Popularity-based
+C) Descrive una tipologia di tacita conoscenza
+ANSWER: A
+
+La classificazione a faccette:
+A) Favorisce una classificazione orizzontale e aperta
+B) E' una specifica implementazione della tecnica del mago di Oz
+C) Si preoccupa di collocare un elemento dell'AI in una gerarchia
+ANSWER: A
+
+La Folksonomy è una social classification basata sul:
+A) Modello bottom up
+B) Modello top-down
+C) Modello a faccette
+ANSWER: A
+
+Il sistema di navigazione globale:
+A) Da indicazione sul dove ci si trova
+B) Da indicazione su come creare interfacce accessibili 
+C) Offre una stratregia specifica di card sorting 
+ANSWER: A
+
+La curva di apprendimento segue l’andamento di una funzione logaritmica perché:
+A) L’utente del sistema “impara” rapidamente nelle prime fasi di utilizzo
+B) L'utente commette sempre errori
+C) Il sistema non può essere privo di problemi di usabilità
+ANSWER: A
+
+Esempi di variabili misurabili in relazione all'usabilità di un sistema sono:
+A) Tempo per completare un task e numero di comandi usati
+B) La distanza semantica e articolatoria
+C) La flessibilità, robustezza e soddisfazione
+ANSWER: A
+
+Un sistema è detto “error-tolerant” se:
+A) A dispetto di evidenti errori nell’input, i risultati desiderati possono essere ottenuti senza (o con minime) azioni correttive
+B) Il sistema è accessibile
+C) E' implementa un AI basata su classificazioni a faccette
+ANSWER: A
+
+Il FLIP-UNDO:
+A) Annulla l'effetto dell'UNDO precedentemente effettuato
+B) Consente al sistema di essere error tolerant
+C) Consente di implementare metafore corrette
+ANSWER: A
+
+La tecnica di backward recovery permette di:
+A) Ritornare ad uno stato iniziale anche approssimato
+B) sviluppare dei mockup corretti 
+C) Supportare strategie di error tolerance
+ANSWER: A
+
+I bisogni emotivi di un utente sono:
+A) Facili da predire
+B) Facilmente formalizzabili
+C) Non ambigui
+ANSWER: A
+
+Con usabilità si intende:
+A) L'efficacia, efficienza e soddisfazione con cui determinati utenti possono raggiungere determinati obbiettivi in determinati ambienti d’uso
+B) La efficacia, efficienza e soddisfazione con cui tutti gli utenti possono accedere alle applicazioni digitali senza difficoltà
+C) Un fattore importante da analizzare per capire l'utilità e le potenzialità di un sistema interattivo
+ANSWER: A
+
+La prevenzione dell'errore:
+A) Nel caso di slip è abbastanza facile da implementare
+B) Implica una corretta progettazione della funzione di UNDO
+C) Sia basa sullo studio di come intercettare l'errore e come spiegarlo chiaramente all'utente
+ANSWER: A
+
+Quando il sistema reagisce all'interazione in modo differente a seconda dello stato in cui si trova si dice che ha un:
+A) Comportamento modale
+B) Comportamento multimediale
+C) Comportamento ibrido
+ANSWER: A
+
+Rispettare il primo principio di Nielsen: Far vedere lo stato del sistema:
+A) Implica che l'utente capisce l'effetto dell'azione passata sullo stato presente
+B) Permettere all’utente di sfruttare la sua esperienza nell’interagire con il sistema
+C) Permette all’utente di prevedere l’effetto delle azioni future in base alle interazioni passate
+ANSWER: A
+
+Rispettare il secondo principio di Nielsen: Adeguare il sistema al mondo reale:
+A) Permettere all’utente di sfruttare la sua esperienza nell’interagire con il sistema
+B) Implica che l'utente capisce l'effetto dell'azione passata sullo stato presente
+C) Permette all’utente di prevedere l’effetto delle azioni future in base alle interazioni passate
+ANSWER: A
+
+Lo "System Usability Scale":
+A) Presenta solo domande su scala Likert
+B) Presenta solo domande le cui risposte sono "positive"
+C) Presenta risposte che danno indicazioni su quanto è accessibile un sistema
+ANSWER: A
+
+Il walkthrough cognitivo è un metodo di analisi:
+A) Predittivo ed ispettivo
+B) Analitico 
+C) Dell'accessibilità
+ANSWER: A
+
+Durante l’analisi euristica:
+A) I valutatori devono esaminare il sistema da soli
+B) I valutatori devono esaminare il sistema tutti insieme
+C) I valutatori devono necessariamente avvalersi dell’uso dei principi di Nielsen
+ANSWER: A
+
+Se dovessi valutare un sistema per il controllo del traffico aereo mediate analisi euristica:
+A) Neppure 10 valutatori sarebbero sufficienti
+B) 5 valutatori sarebbe sufficienti
+C) Reclutare 10 o 15 valutatori non cambierebbe nulla
+ANSWER: A
+
+In un’analisi euristica un grafico che rappresenti i principi di Nielsen maggiormente violati:
+A) Permette di valutare il team che ha progettato il sistema
+B) Permette di dare una valutazione di massima dell’usabilità e accessibilità del sistema
+C) Non serve a nulla
+ANSWER: A
+
+Per progettare in modo adeguato un walkthrough cognitivo:
+A) È necessario definire uno scenario
+B) È necessario coinvolgere l’utente
+C) È necessario avere in mano un sistema accessibile 
+ANSWER: A
+
+Gli esperimenti in laboratorio hanno valore limitato perché:
+A) Non è possibile controllare tutte le variabili ambientali
+B) Non controllano l'accessibilità di un sistema
+C) Le variabili di controllo stabilizzano l’ambiente
+ANSWER: A
+
+In un esperimento between groups:
+A) Ogni utente prova una sola situazione
+B) Ogni utente prova tutte le situazioni
+C) Gli utenti imparano. Sono inesperti solo alla prima esperienza
+ANSWER: A
+
+Durante l’analisi euristica, in una singola sessione di valutazione:
+A) Il valutatore simula uno ed un solo profilo utente
+B) Il valutatore analizza prendendo in considerazione tutti i possibili profili utente
+C) L'utente ispeziona l’ambiente da solo
+ANSWER: A
+
+Un esperimento è affidabile se:
+A) L’esperimento è ripetibile
+B) Se il sistema risulta essere usabile 
+C) Il protocollo sperimentale è adeguato alle necessità
+ANSWER: A
+
+Nel walkthrough cognitivo il valutatore per ogni passo di analisi risponde a 4 domande:
+A) Che corrispondono alle distanze individuabili nel modello di Hutchins,Hollan e Norman
+B) Che corrispondono a quattro diversi principi di Nielsen
+C) Che corrispondono ai quattro pilastri dell'usabilità
+ANSWER: A
+
+La tecnica del thinking aloud:
+A) E' una tecnica per la quale si chiede all’utente di esprimere ad alta voce ciò a cui sta pensando
+B) E' una tecnica per la quale si chiede al valutatore di avvalersi di un osservatore
+C) E' una tecnica di analisi dell'accessibilità
+ANSWER: A
+
+I questionari di usabilità:
+A) Permettono di analizzare il grado di soddisfazione dell'utente
+B) Permettono di definre delle personas
+C) Permettono di fare  solo analisi di tipo qualitativo 
+ANSWER: A
+
+Un test pilota:
+A) Non ha valore di raccolta dati
+B) Permettono di analizzare il grado di accessibilità del sistema
+C) Ha il beneficio che ogni effetto dovuto all’apprendimento viene evitato
+ANSWER: A
+
+Quanti sono i livelli di priorità riguardo alla accessibilità secondo il WAI:
+A) 3
+B) 21
+C) 2
+ANSWER: A
+
+La legge italiana che regolamenta il problema dell'accessibilità si chiama:
+A) Legge Stanca
+B) Legge 501
+C) Legge WCAG
+ANSWER: A
+
+Se un sito non soddisfa nessun requisito di priorità 1 implica che:
+A) A una o più categorie di utenti viene precluso l'accesso alle informazioni presenti nel documento
+B) Non sarà usabile 
+C) Non è stata implementa un'architettura informativa adeguata
+ANSWER: A
+
+Secondo la prima direttiva del WCAG 1.0 l'attributo ALT del tag img:
+A) Deve indicare la funzione dell'immagine e non la sua descrizione
+B) Deve descrivere il colore dell'icona a cui si riferisce
+C) Deve riportare il codice Javascript alternativo da avviare se cliccata l'immagine
+ANSWER: A
+
+Secondo il WAI un elemento si dice disapprovato quando:
+A) Quando risulta superato da costrutti più recenti
+B) Quando risulta accessibile solo a utenti esperti 
+C) Quando non è scritto in HTML
+ANSWER: A
+
+Cosa è l'EARL:
+A) Un linguaggio di specifica di report di un'analisi di accessibilità automatica
+B) Un ente certificatore di accessibilità
+C) Una parte della legge Stanca
+ANSWER: A
+
+Il problema del daltonismo:
+A) Affligge sia gli uomini che le macchine
+B) E' un problema di natura cognitiva 
+C) E' un problema motorio
+ANSWER: A
+
+Secondo l’algoritmo proposto dal W3C per far fronte al problema del daltonismo è bene:
+A) Curare i contrasti di colore tra testo e sfondo
+B) Inserire per ogni immagine un’alternativa testuale
+C) Usare sempre e solo il codice binario
+ANSWER: A
