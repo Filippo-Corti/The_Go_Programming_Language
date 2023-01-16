@@ -1,0 +1,311 @@
+Un buon design dell'interazione prevede di:
+A) Presentare poche ma mirate opzioni di scelta selezionabili dall'utente
+B) Non curarsi troppo dei percorsi di minima resistenza
+C) Mettere sempre la scelta migliore come prima
+ANSWER: A
+
+Il card sorting:
+A) E' una tecnica mediante la quali gli utenti vengono coinvolti nel design dell'architettura dell’informazione
+B) E' una tecnica a di analisi di accessibilità
+C) E' una tecnica a di valutazione senza utenti
+ANSWER: A
+
+Il Card sorting aperto è:
+A) Metodo generativo
+B) E' sempre un metodo valutativo 
+C) Metodo di valutazione analitica di usabilità
+ANSWER: A
+
+Nel Card sorting chiuso:
+A) L’utente deve ordinare i foglietti entro delle categorie predeterminate
+B) L'utente fornisce liberamente indicazioni su come vorrebbe definire un' architettura informativa
+C) L'utente agisce per creare da zero un’architettura informativa
+ANSWER: A
+
+In un prototipo orizzontale:
+A) Le simulazioni non permettono di svolgere alcun task vero
+B) E' possibili testare in profondità solo una parte del sistema
+C) E' una tecnica di valutazione dell'usabilità
+ANSWER: A
+
+Un prototipo di carta:
+A) Può essere valutato mediante tecnica del mago di Oz
+B) Può essere solo un prototipo di tipo verticale
+C) E' un prototipo che non si può utilizzare nelle prime fasi di design
+ANSWER: A
+
+Con la tecnica del mago di Oz:
+A) E' possibile testare l'usabilità di mockup
+B) E' possibile testare l'accessibilità del sistema
+C) E' possibile controllare i tempi di interazione
+ANSWER: A
+
+WIMP sta per:
+A) Windows, icons, menus, pointing
+B) What you see is what you get
+C) Windows, interfaces, mouse, pile
+ANSWER: A
+
+Un Pattern di progetto di HCI offre:
+A) Una soluzione a problemi ricorrenti
+B) Una strategia di valutazione dell'accessibilità
+C) Una tecnica di progettazione che sfrutta sempre la tacita conoscenza dell'utente
+ANSWER: A
+
+Un anti-Pattern di progetto di HCI:
+A) Specifica una soluzione da non seguire
+B) Specifica una soluzione per risolvere possibiili errori commessi degli utenti 
+C) Specifica una soluzione accessibile a tutti i itipi di utente
+ANSWER: A
+
+Quando l'utente ha una vaga idea di cosa cercare su un sito effettua una:
+A) Ricerca esplorativa
+B) Ricerca esaustiva
+C) Ricerca mirata
+ANSWER: A
+
+Il berrypicking model:
+A) E' un paradigma di ricerca informativa che prende anche il nome di «evolving search»
+B) E' un paradigma di ricerca che implementa una tecnica di car sorting
+C) E' una strategia di analisi dell'usabilità
+ANSWER: A
+
+La dimensione verticale di una architettura informativa:
+A) Raffigura le relazioni gerarchiche tra gli elementi di un sistema
+B) Raffigura le ipotetiche relazioni tra livello sintattico e semantica del modello di Tondl
+C) Raffigura le relazioni di continuità spazio-temporale tra gli elementi di un'interfaccia
+ANSWER: A
+
+Un elenco di parole riservate, da usare al posto di alternative più o meno chiare costituisce:
+A) Un vocabolario controllato
+B) Un thesauro
+C) Una gerarchia tassonomica
+ANSWER: A
+
+I modelli di classificazione dell'architettura informativa si possono dividere in:
+A) Modello tassonomico, modello a faccette, social classification
+B) Modello viscrale  comportamentale e riflessivo
+C) Modelli basati sulle distanze semantica e modelli basati sulle distanze articolare
+ANSWER: A
+
+La struttura organizzativa di tipo gerarchico-enumerativa:
+A) Forma una struttura ad albero
+B) Favorisce una classificazione Popularity-based
+C) Descrive una tipologia di tacita conoscenza
+ANSWER: A
+
+La classificazione a faccette:
+A) Favorisce una classificazione orizzontale e aperta
+B) E' una specifica implementazione della tecnica del mago di Oz
+C) Si preoccupa di collocare un elemento dell'AI in una gerarchia
+ANSWER: A
+
+La Folksonomy è una social classification basata sul:
+A) Modello bottom up
+B) Modello top-down
+C) Modello a faccette
+ANSWER: A
+
+Il sistema di navigazione globale:
+A) Da indicazione sul dove ci si trova
+B) Da indicazione su come creare interfacce accessibili 
+C) Offre una stratregia specifica di card sorting 
+ANSWER: A
+
+La curva di apprendimento segue l’andamento di una funzione logaritmica perché:
+A) L’utente del sistema “impara” rapidamente nelle prime fasi di utilizzo
+B) L'utente commette sempre errori
+C) Il sistema non può essere privo di problemi di usabilità
+ANSWER: A
+
+Esempi di variabili misurabili in relazione all'usabilità di un sistema sono:
+A) Tempo per completare un task e numero di comandi usati
+B) La distanza semantica e articolatoria
+C) La flessibilità, robustezza e soddisfazione
+ANSWER: A
+
+Un sistema è detto “error-tolerant” se:
+A) A dispetto di evidenti errori nell’input, i risultati desiderati possono essere ottenuti senza (o con minime) azioni correttive
+B) Il sistema è accessibile
+C) E' implementa un AI basata su classificazioni a faccette
+ANSWER: A
+
+Il FLIP-UNDO:
+A) Annulla l'effetto dell'UNDO precedentemente effettuato
+B) Consente al sistema di essere error tolerant
+C) Consente di implementare metafore corrette
+ANSWER: A
+
+La tecnica di backward recovery permette di:
+A) Ritornare ad uno stato iniziale anche approssimato
+B) sviluppare dei mockup corretti 
+C) Supportare strategie di error tolerance
+ANSWER: A
+
+I bisogni emotivi di un utente sono:
+A) Facili da predire
+B) Facilmente formalizzabili
+C) Non ambigui
+ANSWER: A
+
+Con usabilità si intende:
+A) L'efficacia, efficienza e soddisfazione con cui determinati utenti possono raggiungere determinati obbiettivi in determinati ambienti d’uso
+B) La efficacia, efficienza e soddisfazione con cui tutti gli utenti possono accedere alle applicazioni digitali senza difficoltà
+C) Un fattore importante da analizzare per capire l'utilità e le potenzialità di un sistema interattivo
+ANSWER: A
+
+La prevenzione dell'errore:
+A) Nel caso di slip è abbastanza facile da implementare
+B) Implica una corretta progettazione della funzione di UNDO
+C) Sia basa sullo studio di come intercettare l'errore e come spiegarlo chiaramente all'utente
+ANSWER: A
+
+Quando il sistema reagisce all'interazione in modo differente a seconda dello stato in cui si trova si dice che ha un:
+A) Comportamento modale
+B) Comportamento multimediale
+C) Comportamento ibrido
+ANSWER: A
+
+Rispettare il primo principio di Nielsen: Far vedere lo stato del sistema:
+A) Implica che l'utente capisce l'effetto dell'azione passata sullo stato presente
+B) Permettere all’utente di sfruttare la sua esperienza nell’interagire con il sistema
+C) Permette all’utente di prevedere l’effetto delle azioni future in base alle interazioni passate
+ANSWER: A
+
+Rispettare il secondo principio di Nielsen: Adeguare il sistema al mondo reale:
+A) Permettere all’utente di sfruttare la sua esperienza nell’interagire con il sistema
+B) Implica che l'utente capisce l'effetto dell'azione passata sullo stato presente
+C) Permette all’utente di prevedere l’effetto delle azioni future in base alle interazioni passate
+ANSWER: A
+
+Lo "System Usability Scale":
+A) Presenta solo domande su scala Likert
+B) Presenta solo domande le cui risposte sono "positive"
+C) Presenta risposte che danno indicazioni su quanto è accessibile un sistema
+ANSWER: A
+
+Il walkthrough cognitivo è un metodo di analisi:
+A) Predittivo ed ispettivo
+B) Analitico 
+C) Dell'accessibilità
+ANSWER: A
+
+Durante l’analisi euristica:
+A) I valutatori devono esaminare il sistema da soli
+B) I valutatori devono esaminare il sistema tutti insieme
+C) I valutatori devono necessariamente avvalersi dell’uso dei principi di Nielsen
+ANSWER: A
+
+Se dovessi valutare un sistema per il controllo del traffico aereo mediate analisi euristica:
+A) Neppure 10 valutatori sarebbero sufficienti
+B) 5 valutatori sarebbe sufficienti
+C) Reclutare 10 o 15 valutatori non cambierebbe nulla
+ANSWER: A
+
+In un’analisi euristica un grafico che rappresenti i principi di Nielsen maggiormente violati:
+A) Permette di valutare il team che ha progettato il sistema
+B) Permette di dare una valutazione di massima dell’usabilità e accessibilità del sistema
+C) Non serve a nulla
+ANSWER: A
+
+Per progettare in modo adeguato un walkthrough cognitivo:
+A) È necessario definire uno scenario
+B) È necessario coinvolgere l’utente
+C) È necessario avere in mano un sistema accessibile 
+ANSWER: A
+
+Gli esperimenti in laboratorio hanno valore limitato perché:
+A) Non è possibile controllare tutte le variabili ambientali
+B) Non controllano l'accessibilità di un sistema
+C) Le variabili di controllo stabilizzano l’ambiente
+ANSWER: A
+
+In un esperimento between groups:
+A) Ogni utente prova una sola situazione
+B) Ogni utente prova tutte le situazioni
+C) Gli utenti imparano. Sono inesperti solo alla prima esperienza
+ANSWER: A
+
+Durante l’analisi euristica, in una singola sessione di valutazione:
+A) Il valutatore simula uno ed un solo profilo utente
+B) Il valutatore analizza prendendo in considerazione tutti i possibili profili utente
+C) L'utente ispeziona l’ambiente da solo
+ANSWER: A
+
+Un esperimento è affidabile se:
+A) L’esperimento è ripetibile
+B) Se il sistema risulta essere usabile 
+C) Il protocollo sperimentale è adeguato alle necessità
+ANSWER: A
+
+Nel walkthrough cognitivo il valutatore per ogni passo di analisi risponde a 4 domande:
+A) Che corrispondono alle distanze individuabili nel modello di Hutchins,Hollan e Norman
+B) Che corrispondono a quattro diversi principi di Nielsen
+C) Che corrispondono ai quattro pilastri dell'usabilità
+ANSWER: A
+
+La tecnica del thinking aloud:
+A) E' una tecnica per la quale si chiede all’utente di esprimere ad alta voce ciò a cui sta pensando
+B) E' una tecnica per la quale si chiede al valutatore di avvalersi di un osservatore
+C) E' una tecnica di analisi dell'accessibilità
+ANSWER: A
+
+I questionari di usabilità:
+A) Permettono di analizzare il grado di soddisfazione dell'utente
+B) Permettono di definre delle personas
+C) Permettono di fare  solo analisi di tipo qualitativo 
+ANSWER: A
+
+Un test pilota:
+A) Non ha valore di raccolta dati
+B) Permettono di analizzare il grado di accessibilità del sistema
+C) Ha il beneficio che ogni effetto dovuto all’apprendimento viene evitato
+ANSWER: A
+
+Quanti sono i livelli di priorità riguardo alla accessibilità secondo il WAI:
+A) 3
+B) 21
+C) 2
+ANSWER: A
+
+La legge italiana che regolamenta il problema dell'accessibilità si chiama:
+A) Legge Stanca
+B) Legge 501
+C) Legge WCAG
+ANSWER: A
+
+Se un sito non soddisfa nessun requisito di priorità 1 implica che:
+A) A una o più categorie di utenti viene precluso l'accesso alle informazioni presenti nel documento
+B) Non sarà usabile 
+C) Non è stata implementa un'architettura informativa adeguata
+ANSWER: A
+
+Secondo la prima direttiva del WCAG 1.0 l'attributo ALT del tag img:
+A) Deve indicare la funzione dell'immagine e non la sua descrizione
+B) Deve descrivere il colore dell'icona a cui si riferisce
+C) Deve riportare il codice Javascript alternativo da avviare se cliccata l'immagine
+ANSWER: A
+
+Secondo il WAI un elemento si dice disapprovato quando:
+A) Quando risulta superato da costrutti più recenti
+B) Quando risulta accessibile solo a utenti esperti 
+C) Quando non è scritto in HTML
+ANSWER: A
+
+Cosa è l'EARL:
+A) Un linguaggio di specifica di report di un'analisi di accessibilità automatica
+B) Un ente certificatore di accessibilità
+C) Una parte della legge Stanca
+ANSWER: A
+
+Il problema del daltonismo:
+A) Affligge sia gli uomini che le macchine
+B) E' un problema di natura cognitiva 
+C) E' un problema motorio
+ANSWER: A
+
+Secondo l’algoritmo proposto dal W3C per far fronte al problema del daltonismo è bene:
+A) Curare i contrasti di colore tra testo e sfondo
+B) Inserire per ogni immagine un’alternativa testuale
+C) Usare sempre e solo il codice binario
+ANSWER: A
