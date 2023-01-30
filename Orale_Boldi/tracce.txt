@@ -1,0 +1,38 @@
+Esercizi per l'Esame Orale (trovati su Telegram - Programmazione 1)
+
+1. Funzione che data una slice di Studente (nome - cognome - voto), restituisca una slice con gli studenti promossi (voto >= 18)
+
+2. Funzione che data una slice di parole verifica che per ogni parola ci sia almeno una delle possibili rotazioni
+    es: "strada" ha come rotazioni "tradas", "radast", "adastr", "dastra", "astrad"
+
+3. Funzione che data una slice di bool e un numero k calcola e restituisce l'and dei primi k booleani della slice
+
+4. Funzione che data una slice di stringhe restituisce la stringa più frequente (a parità di frequenze ne restituisce una qualsiasi di priorità massima)
+
+5. Funzione che dato un intero b (base) e una slice di interi (slice che rappresenta un numero in base b) restituisce il valore decimale del numero
+    es: [1 0 0] con base 2 = 4
+
+6. Funzione che prende una mappa map[string]int e una slice []string e restituisce la somma degli interi che corrispondono alle stringhe nella slice.
+    Sommare -1 per le stringhe non presenti nella mappa
+
+7. Funzione che data una slice di interi restituisce un'altra slice di interi che contiene gli stessi interi senza ripetizioni
+
+8. Funzione che dato un numero calcola quanti sono i suoi divisori propri (diversi da 1 e se stesso)
+
+9. Funzione che data una stringa (anche non-ascii) restituisce quanti caratteri non sono lettere latine minuscole
+
+10. Funzione che data una slice di stringhe restituisce true se ci sono stringhe ripetute
+
+11. Funzione che data una slice di stringhe restituisce una stringa calcolata collegando le stringhe aggiungendo una virgola fra esse
+
+12. Programma che disegna una X di asterischi data l'altezza (dispari) da linea di comando
+
+13. Funzione che data una stringa non ascii restituisce una mappa map[rune]int che ha come chiavi le rune che compaiono nella stringa e come valore le loro posizioni
+    (Assumendo che non ci siano rune ripetute)
+
+14. Funzione che data una stringa restituisce il numero di sottostringhe diverse che si possono creare partendo da un dato indice e fino ad un dato indice
+
+15. Funzione che data una slice di interi sommi gli interi in posizione pari, sommi gli interi in posizione dispari e restituisca la differenza
+
+16. Funzione che data una slice di rune (rune ammissibili per scrivere una password) produca una password di 4 caratteri (anche ripetuti) tra quelli nella slice.
+    Contare poi quante password diverse si possono creare.
