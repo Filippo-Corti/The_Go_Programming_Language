@@ -6,7 +6,6 @@ import (
 
 func main() {
 	ints := []int{}
-
 	for {
 		var n int
 		_, err := fmt.Scan(&n)
